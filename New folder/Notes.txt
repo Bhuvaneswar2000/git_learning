@@ -1,0 +1,17 @@
+Pushing the files into git:-
+----------------------------------
+
+step-1 :- git init	(first initialize the git)
+step-2 :- git status	
+step-3 :- git add filename.extension (or) git add .  (for all files) 
+		(or)
+	  git add --filename (for one file) (or) git add --all(for all files)
+
+step-4 :- git commit -m "message"
+step-5 :- git config --global user.name
+            	  ex:- git config --global  user.name "Bhuvaneswar2000"
+             git config --global user.email
+                  ex:- git config --global user.email "janjanambhuvanesh2000@gmail.com"
+
+step-6 :- git remote add origin master "repo-link"
+step-7 :- git push origin master
